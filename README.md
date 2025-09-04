@@ -2,6 +2,9 @@
 
 A modern, full-stack todo list application built with FastAPI (backend) and React (frontend).
 
+![todolistapp](https://github.com/user-attachments/assets/51f35dfa-4476-4571-81c1-87395da39898)
+
+
 ## 📦 Project Structure
 
 ```
