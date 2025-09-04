@@ -50,6 +50,16 @@ npm start
 - Backend API: http://localhost:8000
 - API Docs: http://localhost:8000/docs
 
+### 4. Shutdown / Kill Processes
+
+You can kill processes running on ports 3000 and 8000 using the following commands in your Mac terminal:
+
+```bash
+lsof -ti :3000 | xargs kill -9
+lsof -ti :8000 | xargs kill -9
+```
+
+
 ## 🌐 Azure Deployment
 - Deploy `/backend` to Azure App Service (Python)
 - Deploy `/frontend` to Azure Static Web Apps
